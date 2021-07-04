@@ -1,0 +1,123 @@
+{
+  "pandoc": {
+    "title": "An immune complex binding model predicts effector cell response across diverse disease models",
+    "keywords": [
+      "FcγR receptors",
+      "immunology",
+      "antibodies",
+      "effector function"
+    ],
+    "lang": "en-US",
+    "date-meta": "2021-07-03",
+    "author-meta": [
+      "Zhixin Cyrillus Tan",
+      "Stephen Lees",
+      "Falk Nimmerjahn",
+      "Aaron S. Meyer"
+    ],
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"An immune complex binding model predicts effector cell response across diverse disease models\" />\n<meta name=\"citation_title\" content=\"An immune complex binding model predicts effector cell response across diverse disease models\" />\n<meta property=\"og:title\" content=\"An immune complex binding model predicts effector cell response across diverse disease models\" />\n<meta property=\"twitter:title\" content=\"An immune complex binding model predicts effector cell response across diverse disease models\" />\n<meta name=\"dc.date\" content=\"2021-07-03\" />\n<meta name=\"citation_publication_date\" content=\"2021-07-03\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Zhixin Cyrillus Tan\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Interdepartmental Program, University of California, Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5498-5509\" />\n<meta name=\"citation_author\" content=\"Stephen Lees\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioengineering, University of California, Los Angeles\" />\n<meta name=\"citation_author\" content=\"Falk Nimmerjahn\" />\n<meta name=\"citation_author_institution\" content=\"Friedrich-Alexander-University of Erlangen-Nürnberg\" />\n<meta name=\"citation_author\" content=\"Aaron S. Meyer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioengineering, University of California, Los Angeles\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Interdepartmental Program, University of California, Los Angeles\" />\n<meta name=\"citation_author_institution\" content=\"Jonsson Comprehensive Cancer Center, University of California, Los Angeles\" />\n<meta name=\"citation_author_institution\" content=\"Eli and Edythe Broad Center of Regenerative Medicine and Stem Cell Research, University of California, Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4513-1840\" />\n<meta name=\"twitter:creator\" content=\"@aarmey\" />\n<link rel=\"canonical\" href=\"https://meyer-lab.github.io/FcRegression.jl/\" />\n<meta property=\"og:url\" content=\"https://meyer-lab.github.io/FcRegression.jl/\" />\n<meta property=\"twitter:url\" content=\"https://meyer-lab.github.io/FcRegression.jl/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://meyer-lab.github.io/FcRegression.jl/\" />\n<meta name=\"citation_pdf_url\" content=\"https://meyer-lab.github.io/FcRegression.jl/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://meyer-lab.github.io/FcRegression.jl/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://meyer-lab.github.io/FcRegression.jl/v/03da4ab01f795a96ef3eec8eb9e0880aaa696de4/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://meyer-lab.github.io/FcRegression.jl/v/03da4ab01f795a96ef3eec8eb9e0880aaa696de4/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://meyer-lab.github.io/FcRegression.jl/v/03da4ab01f795a96ef3eec8eb9e0880aaa696de4/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "bibliography": [],
+    "manubot-output-bibliography": "output/references.json",
+    "manubot-output-citekeys": "output/citations.tsv",
+    "manubot-requests-cache-path": "cache/requests-cache",
+    "manubot-clear-requests-cache": false
+  },
+  "manubot": {
+    "date": "July 3, 2021",
+    "authors": [
+      {
+        "github": "cyrillustan",
+        "name": "Zhixin Cyrillus Tan",
+        "initials": "CT",
+        "orcid": "0000-0002-5498-5509",
+        "affiliations": [
+          "Bioinformatics Interdepartmental Program, University of California, Los Angeles"
+        ],
+        "affiliation_numbers": [
+          1
+        ]
+      },
+      {
+        "name": "Stephen Lees",
+        "initials": "SL",
+        "affiliations": [
+          "Department of Bioengineering, University of California, Los Angeles"
+        ],
+        "affiliation_numbers": [
+          2
+        ]
+      },
+      {
+        "name": "Falk Nimmerjahn",
+        "initials": "FN",
+        "affiliations": [
+          "Friedrich-Alexander-University of Erlangen-Nürnberg"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "github": "aarmey",
+        "name": "Aaron S. Meyer",
+        "initials": "ASM",
+        "orcid": "0000-0003-4513-1840",
+        "twitter": "aarmey",
+        "email": "ameyer@asmlab.org",
+        "affiliations": [
+          "Department of Bioengineering, University of California, Los Angeles",
+          "Bioinformatics Interdepartmental Program, University of California, Los Angeles",
+          "Jonsson Comprehensive Cancer Center, University of California, Los Angeles",
+          "Eli and Edythe Broad Center of Regenerative Medicine and Stem Cell Research, University of California, Los Angeles"
+        ],
+        "affiliation_numbers": [
+          1,
+          2,
+          4,
+          5
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "affiliation": "Bioinformatics Interdepartmental Program, University of California, Los Angeles",
+        "affiliation_number": 1
+      },
+      {
+        "affiliation": "Department of Bioengineering, University of California, Los Angeles",
+        "affiliation_number": 2
+      },
+      {
+        "affiliation": "Friedrich-Alexander-University of Erlangen-Nürnberg",
+        "affiliation_number": 3
+      },
+      {
+        "affiliation": "Jonsson Comprehensive Cancer Center, University of California, Los Angeles",
+        "affiliation_number": 4
+      },
+      {
+        "affiliation": "Eli and Edythe Broad Center of Regenerative Medicine and Stem Cell Research, University of California, Los Angeles",
+        "affiliation_number": 5
+      }
+    ],
+    "ci_source": {
+      "provider": "github",
+      "repo_slug": "meyer-lab/FcRegression.jl",
+      "repo_owner": "meyer-lab",
+      "repo_name": "FcRegression.jl",
+      "commit": "03da4ab01f795a96ef3eec8eb9e0880aaa696de4",
+      "triggering_commit": "03da4ab01f795a96ef3eec8eb9e0880aaa696de4",
+      "build_url": "https://github.com/meyer-lab/FcRegression.jl/commit/03da4ab01f795a96ef3eec8eb9e0880aaa696de4/checks",
+      "job_url": "https://github.com/meyer-lab/FcRegression.jl/runs/__run_2"
+    },
+    "html_url": "https://meyer-lab.github.io/FcRegression.jl/",
+    "pdf_url": "https://meyer-lab.github.io/FcRegression.jl/manuscript.pdf",
+    "html_url_versioned": "https://meyer-lab.github.io/FcRegression.jl/v/03da4ab01f795a96ef3eec8eb9e0880aaa696de4/",
+    "pdf_url_versioned": "https://meyer-lab.github.io/FcRegression.jl/v/03da4ab01f795a96ef3eec8eb9e0880aaa696de4/manuscript.pdf",
+    "manubot_version": "0.5.0",
+    "rootstock_commit": null,
+    "manuscript_stats": {
+      "word_count": 3699
+    }
+  }
+}
